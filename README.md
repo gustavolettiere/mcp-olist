@@ -125,10 +125,15 @@ Reinicie o Claude Desktop. Um ícone de ferramentas aparecerá no chat indicando
 ### 7. Testar no MCP Inspector (opcional)
 
 ```bash
-npx @modelcontextprotocol/inspector .venv/Scripts/python.exe server.py
+npx @modelcontextprotocol/inspector
 ```
 
-Acesse `localhost:6274` no navegador para executar tools interativamente.
+Acesse `localhost:6274` no navegador. Na interface, preencha:
+
+- **Command:** caminho absoluto para o Python do venv (ex: `C:\caminho\para\.venv\Scripts\python.exe`)
+- **Arguments:** `server.py`
+
+Clique em **Connect** para executar tools interativamente.
 
 ---
 
