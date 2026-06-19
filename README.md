@@ -92,8 +92,8 @@ Isso cria o arquivo `olist.duckdb` com todas as tabelas inferidas automaticament
 ### 5. Verifique o server
 
 ```bash
-.venv/Scripts/fastmcp inspect server.py   # Windows
-.venv/bin/fastmcp inspect server.py       # Linux/macOS
+.venv\Scripts\fastmcp.exe inspect server.py   # Windows
+.venv/bin/fastmcp inspect server.py           # Linux/macOS
 ```
 
 Deve retornar: 3 Tools, 1 Prompt, 1 Resource.
